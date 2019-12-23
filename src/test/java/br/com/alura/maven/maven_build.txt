@@ -1,0 +1,11 @@
+
+*** AULA01
+*criar perojeto na linha de comando
+mvn archetype:generate -DartifactId=produtos -DgroupId=br.com.alura.maven -DinteractiveMode=false -DarchetypeArtifactId=maven-archetype-quickstart
+
+mvn archetype:generate -DartifactId=produtos -DgroupId=br.com.alura.maven -DinteractiveMode=false -DarchetypeArtifactId=maven-archetype-quickstart
+*compilar o projeto
+mvn compile
+*Compilar o teste
+mvn test
+
