@@ -9,3 +9,10 @@ mvn compile
 *Compilar o teste
 mvn test
 
+*relatorio
+Utilizando o plugin surefire-report para gerar relatorio .html:
+ mvn surefire-report:report
+gera no diretorio target\surefire
+
+*O maven pode empacotar em .jar (que é o goal informado no pom.xml <packaging>jar</packaging>) utilizando o geuinte comando:
+mvn package
