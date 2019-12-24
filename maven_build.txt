@@ -16,3 +16,9 @@ gera no diretorio target\surefire
 
 *O maven pode empacotar em .jar (que é o goal informado no pom.xml <packaging>jar</packaging>) utilizando o geuinte comando:
 mvn package
+
+*** AULA02 - Maven no eclipse
+importar projeto maven no eclipse
+adicionar dependencias utilizando o maven repository
+
+http://mvnrepository.com/
