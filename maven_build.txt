@@ -93,3 +93,19 @@ Podemos forçar a ordem de etapas com opções da linha de comando, como não gerar 
 
 mvn -DskipTests=true package
 
+* Incluindo plugins
+Comando do plugin pmd:
+pmd:pmd 
+gera apenas um report das violações
+
+Gera no diretório:
+produtos/target/site/pmd.html
+
+Report com as violações encontradas no fonte
+
+Utilizando o comando pmd:check (roda pmd:pmd antes)
+Gera o relatório e NÂO deixa passar a compilação emquanto os problemas não forem corrigidos, 
+conforme regras pré determinadas. VErifica se o report é valido ou não.
+
+
+
