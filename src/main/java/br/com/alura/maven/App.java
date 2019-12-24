@@ -10,6 +10,6 @@ public class App
 
         Produto produto = new Produto("Bala juquinha sabor tangerina", 0.15);
 
-        System.out.println("A bala que eu gosto é: "+ produto.getNome() + "e custa " + produto.getPreco());
+//        System.out.println("A bala que eu gosto é: "+ produto.getNome() + "e custa " + produto.getPreco());
     }
 }
