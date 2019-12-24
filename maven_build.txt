@@ -24,7 +24,7 @@ adicionar dependencias utilizando o maven repository
 http://mvnrepository.com/
 
 *** AULA03 - Repositorio remoto e local
-Para executr o maven offline sem checar atualizações das dependências:
+Para executar o maven offline sem checar atualizações das dependências:
 
 mvn -o <comando goal>
 
