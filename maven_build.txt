@@ -107,5 +107,7 @@ Utilizando o comando pmd:check (roda pmd:pmd antes)
 Gera o relatório e NÂO deixa passar a compilação emquanto os problemas não forem corrigidos, 
 conforme regras pré determinadas. VErifica se o report é valido ou não.
 
+O goal pmd:check se relaciona à fase verify.
 
+https://maven.apache.org/plugins/maven-pmd-plugin/check-mojo.html
 
