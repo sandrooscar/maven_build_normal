@@ -48,5 +48,10 @@ Para adicionar o endereço de um novo repositorio basta adicionar
 <repositories>
 ver link https://maven.apache.org/pom.html
 
+A vantagem de se manter um repositório local é que é possível realizar um cache entre vários projetos que utilizam o Maven. Dessa forma, tudo que já estiver salvo no repositório local é utilizado e compartilhado, não sendo necessário realizar novos downloads.
+
+Vale lembrar que o repositório local fica disponível na pasta do usuário, e por esse motivo não estará disponível para diferentes usuários de um mesmo computador.
+
+
 
 
