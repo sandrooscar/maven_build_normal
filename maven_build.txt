@@ -24,6 +24,12 @@ adicionar dependencias utilizando o maven repository
 http://mvnrepository.com/
 
 *** AULA03 - Repositorio remoto e local
+Repositorio local:
+
+No Windows, o diretório deve ficar dentro do diretório de seu usuário, .m2 e repository.
+
+Já em sistemas Linux, você deve encontrar um diretório "invisível" (devido ao ponto na frente) na Home do usuário, chamado .m2, dentro do qual estará o repository.
+
 Para executar o maven offline sem checar atualizações das dependências:
 
 mvn -o <comando goal>
