@@ -22,3 +22,25 @@ importar projeto maven no eclipse
 adicionar dependencias utilizando o maven repository
 
 http://mvnrepository.com/
+
+*** AULA03 - Repositorio remoto e local
+Para executr o maven offline sem checar atualizações das dependências:
+
+mvn -o <comando goal>
+
+Repositorio central do maven (remoto)
+http://repo.maven.apache.org/maven2/
+
+É onde fica localizado todo os arquivos que trabalham com o maven, é daqui que os arquivos são copiados.
+
+O maven possue um repositorio local, quando cria um novo projeto via linha de comando por exemplo, o mven não baixa por exemplo o junit
+novamente, por que ele já existe no repositorio local.
+
+O maven baixa do repositorio remoto para o repositorio local
+
+Para adicionar o endereço de um novo repositorio basta adicionar 
+<repositories>
+ver link https://maven.apache.org/pom.html
+
+
+
